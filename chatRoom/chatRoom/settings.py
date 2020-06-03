@@ -25,7 +25,7 @@ SECRET_KEY = 't)hf-_0o!!der_29d@x6hm)jt2p(a^#p4#e(zzdu8)v86@i=q('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['facebookchatroom.pythonanywhere.com']
 
 
 # Application definition
