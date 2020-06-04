@@ -25,7 +25,10 @@ SECRET_KEY = 't)hf-_0o!!der_29d@x6hm)jt2p(a^#p4#e(zzdu8)v86@i=q('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['facebookchatroom.pythonanywhere.com']
+ALLOWED_HOSTS = [
+    'facebookchatroom.pythonanywhere.com',
+    'localhost'
+]
 
 
 # Application definition
@@ -120,3 +123,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR + '/chat/static/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    
+]
