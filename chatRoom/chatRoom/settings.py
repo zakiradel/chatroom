@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'facebookchatroom.pythonanywhere.com',
-    'localhost'
+    'localhost',
+    'facebookchat.pythonanywhere.com/'
 ]
 
 
